@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>June 12 Document</title>
     <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,5 +22,18 @@
             <li>Item 5</li>
         </ul>
     </nav>
+
+    <section>
+        <h2>colour picker</h2>
+    </section>
+    <h3>select your colour <span id="colourOutput"></span></h3>
+    <label for="rangeRed">Red</label>
+    <input type="range" name="rangeRed" id="rangeRed" value="255" min="0" max="255">
+
+    <label for="rangeGreen">Green</label>
+    <input type="range" name="rangeGreen" id="rangeGreen" value="239" min="0" max="255">
+
+    <label for="rangeBlue">Blue</label>
+    <input type="range" name="rangeBlue" id="rangeBlue" value="213" min="0" max="255">
 </body>
 </html>
