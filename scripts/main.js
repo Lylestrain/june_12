@@ -9,4 +9,4 @@ function changeColour() {
 
 document.getElementById('rangeRed').addEventListener('click' , changeColour);
 document.getElementById('rangeGreen').addEventListener('click' , changeColour);
-document.getElementById('rangeBlue').addEventListener('click' , changeColour);
+document.getElementById('rangeBlue').addEventListener('onInput' , changeColour);
